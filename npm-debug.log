@@ -1,0 +1,209 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'n' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose cache add [ 'n', null ]
+5 verbose cache add name=undefined spec="n" args=["n",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'n',
+6 verbose parsed url   path: 'n',
+6 verbose parsed url   href: 'n' }
+7 silly lockFile d1854cae-n n
+8 verbose lock n C:\Users\nacho\AppData\Roaming\npm-cache\d1854cae-n.lock
+9 silly lockFile d1854cae-n n
+10 silly lockFile d1854cae-n n
+11 verbose addNamed [ 'n', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 6b58d7dc-n n@
+14 verbose lock n@ C:\Users\nacho\AppData\Roaming\npm-cache\6b58d7dc-n.lock
+15 silly addNameRange { name: 'n', range: '*', hasData: false }
+16 verbose url raw n
+17 verbose url resolving [ 'https://registry.npmjs.org/', './n' ]
+18 verbose url resolved https://registry.npmjs.org/n
+19 info trying registry request attempt 1 at 22:21:47
+20 http GET https://registry.npmjs.org/n
+21 http 200 https://registry.npmjs.org/n
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Sun, 30 Nov 2014 21:21:57 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"5HCTEH1EWEUZAJQU30A7M7DC0"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '36700',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-ams4135-AMS',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1417382517.062809,VS0,VE376',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'n', range: '*', hasData: true }
+24 silly addNameRange versions [ 'n',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '0.5.4',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '0.9.3',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.2.2',
+24 silly addNameRange     '1.2.3',
+24 silly addNameRange     '1.2.4',
+24 silly addNameRange     '1.2.5',
+24 silly addNameRange     '1.2.6',
+24 silly addNameRange     '1.2.7',
+24 silly addNameRange     '1.2.8',
+24 silly addNameRange     '1.2.9' ] ]
+25 verbose addNamed [ 'n', '1.2.9' ]
+26 verbose addNamed [ '1.2.9', '1.2.9' ]
+27 silly lockFile 7f22195c-n-1-2-9 n@1.2.9
+28 verbose lock n@1.2.9 C:\Users\nacho\AppData\Roaming\npm-cache\7f22195c-n-1-2-9.lock
+29 silly lockFile 473decd1-registry-npmjs-org-n-n-1-2-9-tgz https://registry.npmjs.org/n/-/n-1.2.9.tgz
+30 verbose lock https://registry.npmjs.org/n/-/n-1.2.9.tgz C:\Users\nacho\AppData\Roaming\npm-cache\473decd1-registry-npmjs-org-n-n-1-2-9-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/n/-/n-1.2.9.tgz',
+31 verbose addRemoteTarball   '962f4a31f218e0e03d4353e68311d4bbe38cf130' ]
+32 info retry fetch attempt 1 at 22:21:48
+33 verbose fetch to= C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\tmp.tgz
+34 http GET https://registry.npmjs.org/n/-/n-1.2.9.tgz
+35 http 200 https://registry.npmjs.org/n/-/n-1.2.9.tgz
+36 verbose tar unpack C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\tmp.tgz
+37 silly lockFile 93cf99f1-08798-0-6767407476436347-package tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\package
+38 verbose lock tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\package C:\Users\nacho\AppData\Roaming\npm-cache\93cf99f1-08798-0-6767407476436347-package.lock
+39 silly lockFile 045d2cae-08798-0-6767407476436347-tmp-tgz tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\tmp.tgz
+40 verbose lock tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\tmp.tgz C:\Users\nacho\AppData\Roaming\npm-cache\045d2cae-08798-0-6767407476436347-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+44 silly gunzTarPerm extractEntry History.md
+45 silly gunzTarPerm modified mode [ 'History.md', 436, 420 ]
+46 silly gunzTarPerm extractEntry Makefile
+47 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+48 silly gunzTarPerm extractEntry Readme.md
+49 silly gunzTarPerm modified mode [ 'Readme.md', 436, 420 ]
+50 silly gunzTarPerm extractEntry bin/n
+51 silly gunzTarPerm modified mode [ 'bin/n', 509, 493 ]
+52 silly lockFile 93cf99f1-08798-0-6767407476436347-package tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\package
+53 silly lockFile 93cf99f1-08798-0-6767407476436347-package tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\package
+54 silly lockFile 045d2cae-08798-0-6767407476436347-tmp-tgz tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\tmp.tgz
+55 silly lockFile 045d2cae-08798-0-6767407476436347-tmp-tgz tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\tmp.tgz
+56 verbose tar pack [ 'C:\\Users\\nacho\\AppData\\Roaming\\npm-cache\\n\\1.2.9\\package.tgz',
+56 verbose tar pack   'C:\\Users\\nacho\\AppData\\Local\\Temp\\npm-14432-wdUKyH_w\\1417382508798-0.6767407476436347\\package' ]
+57 verbose tarball C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz
+58 verbose folder C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\package
+59 silly lockFile 93cf99f1-08798-0-6767407476436347-package tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\package
+60 verbose lock tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\package C:\Users\nacho\AppData\Roaming\npm-cache\93cf99f1-08798-0-6767407476436347-package.lock
+61 silly lockFile c6bf8b45-ng-npm-cache-n-1-2-9-package-tgz tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz
+62 verbose lock tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz C:\Users\nacho\AppData\Roaming\npm-cache\c6bf8b45-ng-npm-cache-n-1-2-9-package-tgz.lock
+63 silly lockFile 93cf99f1-08798-0-6767407476436347-package tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\package
+64 silly lockFile 93cf99f1-08798-0-6767407476436347-package tar://C:\Users\nacho\AppData\Local\Temp\npm-14432-wdUKyH_w\1417382508798-0.6767407476436347\package
+65 silly lockFile c6bf8b45-ng-npm-cache-n-1-2-9-package-tgz tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz
+66 silly lockFile c6bf8b45-ng-npm-cache-n-1-2-9-package-tgz tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz
+67 silly lockFile 0bc18dbc-oaming-npm-cache-n-1-2-9-package C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package
+68 verbose lock C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package C:\Users\nacho\AppData\Roaming\npm-cache\0bc18dbc-oaming-npm-cache-n-1-2-9-package.lock
+69 silly lockFile 0bc18dbc-oaming-npm-cache-n-1-2-9-package C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package
+70 silly lockFile 0bc18dbc-oaming-npm-cache-n-1-2-9-package C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package
+71 verbose tar unpack C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz
+72 silly lockFile be6396c7-oaming-npm-cache-n-1-2-9-package tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package
+73 verbose lock tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package C:\Users\nacho\AppData\Roaming\npm-cache\be6396c7-oaming-npm-cache-n-1-2-9-package.lock
+74 silly lockFile c6bf8b45-ng-npm-cache-n-1-2-9-package-tgz tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz
+75 verbose lock tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz C:\Users\nacho\AppData\Roaming\npm-cache\c6bf8b45-ng-npm-cache-n-1-2-9-package-tgz.lock
+76 silly gunzTarPerm modes [ '755', '644' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+79 silly gunzTarPerm extractEntry bin/n
+80 silly gunzTarPerm modified mode [ 'bin/n', 438, 420 ]
+81 silly gunzTarPerm extractEntry History.md
+82 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+83 silly gunzTarPerm extractEntry Makefile
+84 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+85 silly gunzTarPerm extractEntry Readme.md
+86 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+87 silly lockFile be6396c7-oaming-npm-cache-n-1-2-9-package tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package
+88 silly lockFile be6396c7-oaming-npm-cache-n-1-2-9-package tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package
+89 silly lockFile c6bf8b45-ng-npm-cache-n-1-2-9-package-tgz tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz
+90 silly lockFile c6bf8b45-ng-npm-cache-n-1-2-9-package-tgz tar://C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz
+91 verbose chmod C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz 644
+92 silly chown skipping for windows C:\Users\nacho\AppData\Roaming\npm-cache\n\1.2.9\package.tgz
+93 silly lockFile 473decd1-registry-npmjs-org-n-n-1-2-9-tgz https://registry.npmjs.org/n/-/n-1.2.9.tgz
+94 silly lockFile 473decd1-registry-npmjs-org-n-n-1-2-9-tgz https://registry.npmjs.org/n/-/n-1.2.9.tgz
+95 silly lockFile 7f22195c-n-1-2-9 n@1.2.9
+96 silly lockFile 7f22195c-n-1-2-9 n@1.2.9
+97 silly lockFile 6b58d7dc-n n@
+98 silly lockFile 6b58d7dc-n n@
+99 silly resolved [ { name: 'n',
+99 silly resolved     description: 'node version manager',
+99 silly resolved     version: '1.2.9',
+99 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+99 silly resolved     homepage: 'https://github.com/visionmedia/n',
+99 silly resolved     bugs: { url: 'https://github.com/visionmedia/n/issues' },
+99 silly resolved     keywords: [ 'node', 'binary', 'version', 'manager', 'switcher', 'env' ],
+99 silly resolved     bin: { n: './bin/n' },
+99 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/n.git' },
+99 silly resolved     preferGlobal: true,
+99 silly resolved     os: [ '!win32' ],
+99 silly resolved     engines: { node: '*' },
+99 silly resolved     license: 'MIT',
+99 silly resolved     readme: '# n\n\nSimple flavour of node binary management, no subshells, no profile setup, no convoluted api, just _simple_.\n\n ![](https://i.cloudup.com/59cA8VEDae.gif)\n\n## Installation\n\n    $ npm install -g n\n\nor\n\n    $ make install\n    \nto `$HOME`. Prefix later calls to `n` with `N_PREFIX=$HOME`\n\n    $ PREFIX=$HOME make install\n\n### Installing Binaries\n\nInstall a few nodes:\n\n    $ n 0.8.14\n    $ n 0.8.17\n    $ n 0.9.6\n\nType `n` to prompt selection of an installed node. Use the up /\ndown arrow to navigate, and press enter or the right arrow to\nselect, or ^C to cancel:\n\n    $ n\n\n      0.8.14\n    ο 0.8.17\n      0.9.6\n\nUse or install the latest official release:\n\n    $ n latest\n\nUse or install the stable official release:\n\n    $ n stable\n\nSwitch to the previous version you were using:\n\n    $ n prev\n\n### Removing Binaries\n\nRemove some versions:\n\n    $ n rm 0.9.4 v0.10.0\n\nInstead of using `rm` we can simply use `-`:\n\n    $ n - 0.9.4\n\n### Binary Usage\n\nWhen running multiple versions of node, we can target\nthem directly by asking `n` for the binary path:\n\n    $ n bin 0.9.4\n    /usr/local/n/versions/0.9.4/bin/node\n\nOr by using a specific version through `n`\'s `use` sub-command:\n\n    $ n use 0.9.4 some.js\n\nwith flags:\n\n    $ n as 0.9.4 --debug some.js\n\n## Usage\n\n Output from `n --help`:\n\n    Usage: n [options] [COMMAND] [args]\n\n    Commands:\n\n      n                            Output versions installed\n      n latest                     Install or activate the latest node release\n      n stable                     Install or activate the latest stable node release\n      n <version>                  Install node <version>\n      n use <version> [args ...]   Execute node <version> with [args ...]\n      n bin <version>              Output bin path for <version>\n      n rm <version ...>           Remove the given version(s)\n      n --latest                   Output the latest node version available\n      n --stable                   Output the latest stable node version available\n      n ls                         Output the versions of node available\n\n    Options:\n\n      -V, --version   Output current version of n\n      -h, --help      Display help information\n\n    Aliases:\n\n      which   bin\n      use     as\n      list    ls\n      -       rm\n\n## Details\n\n `n` by default installs node to _/usr/local/n/versions_, from\n which it can see what you have currently installed, and activate previously installed versions of node when `n <version>` is invoked again.\n\n Activated nodes are then installed to the prefix _/usr/local_, which of course may be altered via the __N_PREFIX__ environment variable.\n\n To alter where `n` operates simply export __N_PREFIX__ to whatever you prefer.\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2014 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+99 silly resolved     readmeFilename: 'Readme.md',
+99 silly resolved     _id: 'n@1.2.9',
+99 silly resolved     dist: { shasum: '2603c3978a331569b4d76ccfcea40404a6043627' },
+99 silly resolved     _from: 'n@',
+99 silly resolved     _resolved: 'https://registry.npmjs.org/n/-/n-1.2.9.tgz' } ]
+100 info install n@1.2.9 into C:\Users\nacho\AppData\Roaming\npm
+101 info installOne n@1.2.9
+102 error notsup Unsupported
+102 error notsup Not compatible with your operating system or architecture: n@1.2.9
+102 error notsup Valid OS:    !win32
+102 error notsup Valid Arch:  any
+102 error notsup Actual OS:   win32
+102 error notsup Actual Arch: x64
+103 error System Windows_NT 6.2.9200
+104 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "n"
+105 error cwd c:\_saski\jargstorfer
+106 error node -v v0.10.25
+107 error npm -v 1.3.24
+108 error code EBADPLATFORM
+109 verbose exit [ 1, true ]
