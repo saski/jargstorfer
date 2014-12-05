@@ -19,7 +19,7 @@
      * Kontrol library
      */
     "use strict";
-
+console.log('load kontrol')
     /**
      * Definition of globals and core
      */
