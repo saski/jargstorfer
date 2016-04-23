@@ -1,9 +1,9 @@
-var context = new webkitAudioContext();
+var context = new AudioContext();
 
 var makeBassNode = function () {
     var bass = context.createBiquadFilter();
 
-    bass.type = 3;
+    bass.type = 'allpass';
     bass.frequency.value = 440;
     bass.Q.value = 0;
     bass.gain.value = $('#bass').val();
@@ -14,7 +14,7 @@ var makeBassNode = function () {
 var makeTrebleNode = function () {
     var treble = context.createBiquadFilter();
 
-    treble.type = 4;
+    treble.type = 'allpass';
     treble.frequency.value = 1700;
     treble.Q.value = 0;
     treble.gain.value = $('#treble').val();
@@ -79,7 +79,7 @@ $(function () {
     $('#treble').dial({'change': function (v) {
         trebleNode.gain.value = v / 100;
     }});
-
+    
     $('#reverb').dial({'change': function (v) {
         //
     }});
@@ -90,14 +90,14 @@ function gotStream(stream) {
     volumeNode.gain.value = $('#volume').val() / 100;
     distortionNode.curve = makeDistortionCurve(context.sampleRate)
 
-    mic.connect(distortionNode); 
-    distortionNode.connect(bassNode);
+    mic.connect(volumeNode); 
+    distortionNode.connect(delayNode);
     bassNode.connect(trebleNode);
     trebleNode.connect(delayNode);
     delayNode.connect(volumeNode);
     volumeNode.connect(context.destination)
 
-console.log(stream, mic, volumeNode, distortionNode, bassNode, trebleNode, delayNode, context)
+console.log(stream, mic, volumeNode, delayNode, trebleNode, bassNode, context)
 
 }
 
